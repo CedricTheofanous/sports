@@ -19,9 +19,13 @@ const MainBanner = props => {
 
   return (
     <StyledDiv>
-      <StyledH1>{strTeam}</StyledH1>
+      <StyledH1 id="banner-title">{strTeam}</StyledH1>
       <p>{`est. ${intFormedYear}`}</p>
-      <StyledImage src={`${imageUrl}`} alt={`${strTeam} fan art`}></StyledImage>
+      <StyledImage
+        id="banner-img"
+        src={`${imageUrl}`}
+        alt={`${strTeam} fan art`}
+      ></StyledImage>
     </StyledDiv>
   )
 }
