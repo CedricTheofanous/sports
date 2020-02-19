@@ -23,6 +23,7 @@ const TeamThumbnails = props => {
         return (
           <div key={`div ${index}-${imgSrc}`}>
             <StyledImage
+              id={`thumbnail-image-${index}`}
               key={`image ${index}-${imgSrc}`}
               src={`${imgSrc}`}
               alt={`fan art`}

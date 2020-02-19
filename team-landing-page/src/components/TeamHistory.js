@@ -22,7 +22,7 @@ const TeamHistory = props => {
   return (
     <StyledDiv>
       <h2>Team History</h2>
-      <StyledP>{strDescriptionEn}</StyledP>
+      <StyledP id="team-description">{strDescriptionEn}</StyledP>
       <br></br>
     </StyledDiv>
   )
