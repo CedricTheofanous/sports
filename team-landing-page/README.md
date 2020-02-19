@@ -18,5 +18,5 @@ Server must be running for tests to work (must be done after npm start)
 -to test in the terminal   
   npm run cy:terminal   
 
-  
+  Also, if you are not a hawks fan, change the team name in TeamContainer.js to your favorite team
 
